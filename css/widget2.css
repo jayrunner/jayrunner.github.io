@@ -1,0 +1,76 @@
+#widget-wrapper2 {    
+    font-family: arial;
+}
+
+#widget-wrapper2 .clear {
+    clear:both;
+}
+
+#widget-wrapper2 .post {
+    margin: 30px auto;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+    width: 800px;
+}
+
+#widget-wrapper2 .post .left {
+    float:left;
+    width: 340px;
+}
+
+#widget-wrapper2 .post .right {
+    float: right;
+    width: 450px;
+}
+
+#widget-wrapper2 .post label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+#widget-wrapper2 .post .input-control {
+    margin-bottom: 10px;
+}
+
+#widget-wrapper2 .post .left input {
+    display: block;
+    padding: 8px;
+    font-size: 20px;
+    width: 280px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#widget-wrapper2 .post .left select {
+    display: block;
+    padding: 8px;
+    font-size: 20px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#widget-wrapper2 .post .right textarea {
+    display: block;
+    width: 440px;
+    height: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#widget-wrapper2 .post .right button {
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+    width: 70px;
+    height: 35px;
+    color: #fff;
+    background-color: #0040ff;
+    border: 1px solid #0040ff;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
