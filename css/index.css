@@ -12,7 +12,7 @@ body {
 
 .container {
     margin: 50px auto;
-    width: 1200px;
+    width: 1000px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
@@ -37,7 +37,7 @@ body {
 .nav a {
     padding: 0 20px 0 0;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     text-transform: capitalize;
     color: #00BFFF;
 }
@@ -49,7 +49,7 @@ body {
 .container .content-wrapper {
     padding: 10px;
     height: 2200px;
-    width: 1180px;
+    width: 980px;
     background-color: #a2cdfa;
 }
 
@@ -67,6 +67,7 @@ body {
     font-size: 130%;
     font-weight: 700;
     color: #282828;
+    text-transform: capitalize;
 }
 
 .container .thefooter {
