@@ -13,6 +13,14 @@ body {
     clear:both;
 }
 
+#greeting {
+    padding: 20px 0px 0px 10px;
+    font-size: 34px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: arial;
+}
+
 #page-container {
     margin: 20px auto;
     width: 900px;
@@ -149,7 +157,7 @@ body {
 #information {
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 25px;
+    padding-top: 10px;
     margin-bottom: 20px;
     font-size: 22px;
     color: #fff;
