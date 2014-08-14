@@ -1,0 +1,73 @@
+#widget-wrapper8 .post {
+    font-family: arial;
+    margin: 0 auto;
+    width: 350px;
+    max-width: 350px;
+    min-width: 250px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 15px;
+    border: 2px solid #ccc;
+}
+
+#widget-wrapper8 .post .field-control {
+    margin-bottom: 12px;
+}
+
+#widget-wrapper8 .post .field-control label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #111111;
+}
+
+#widget-wrapper8 .post .field-control input {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    width: 325px;
+}
+
+#widget-wrapper8 .post .field-control input:hover {
+    border-color: #2C9BF7;
+}
+
+#widget-wrapper8 .post .field-control input:focus {
+    border-color: #2c9bf7;
+}
+
+#widget-wrapper8 .post .field-control select {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    width: 100%;
+    color: #868686;
+}
+
+#widget-wrapper8 .post .field-control select:hover {
+    border-color: #2C9BF7;
+}
+
+#widget-wrapper8 .post .button button {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    background-color: #005CE6;
+    border-radius: 5px;
+    border: 1px solid #005CE6;
+    font-size: 20px;
+    font-weight: 700;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+#widget-wrapper8 .post .button button:hover {
+    background-color: #0040A0;
+    border: 1px solid #0040A0;
+}
