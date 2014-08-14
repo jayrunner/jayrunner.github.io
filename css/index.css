@@ -136,6 +136,7 @@ body {
 }
 
 #block-wrapper:last-child {
+    margin-top: 20px;
     margin-bottom: 0px;
     padding-bottom: 50px;
 }
@@ -217,7 +218,7 @@ body {
 #block-wrapper .widget-title {
     margin-top: 15px;
     margin-bottom: 10px;
-    color: #fff;;
+    color: #85C2FF;
     font-size: 26px;
     text-align: left;
 }
