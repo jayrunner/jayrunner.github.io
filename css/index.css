@@ -1,8 +1,8 @@
 body {
-    background: -webkit-linear-gradient(#0066CC, #85C2FF, #0066CC);
-    background: -o-linear-gradient(#0066CC, #85C2FF, #0066CC); 
-    background: -moz-linear-gradient(#0066CC, #85C2FF, #0066CC);  
-    background: linear-gradient(#0066CC, #85C2FF, #0066CC);
+    background: -webkit-linear-gradient(#00FF99, #85C2FF, #0066CC);
+    background: -o-linear-gradient(#00FF99, #85C2FF, #0066CC); 
+    background: -moz-linear-gradient(#00FF99, #85C2FF, #0066CC);  
+    background: linear-gradient(#00FF99, #85C2FF, #0066CC);
 }
 
 * {
@@ -14,11 +14,11 @@ body {
 }
 
 #greeting {
-    padding: 20px 0px 0px 10px;
-    font-size: 34px;
+    padding: 10px 0px 0px 10px;
+    font-size: 36px;
     text-transform: uppercase;
-    color: #fff;
-    font-family: arial;
+    color: #85C2FF;
+    font-family: 'Francois One', sans-serif;
 }
 
 #page-container {
@@ -29,22 +29,25 @@ body {
 #page-header img {
     float: left;
     margin: 10px;
+    margin-right: 0px;
     border-radius: 60px;
 }
 
 #page-title {
     padding: 10px 0 10px 0;
     text-align: center;
-    font-size: 300%;
-    background-color: #85C2FF;
+    font-size: 64px;
+    background-color: #42c24d;
     height: 100px;
+    text-shadow: 4px 2px #282828;
 }
 
 #page-title a {
-    padding: 4px 80px 4px 80px;
-    text-decoration: underline;
-    color: #282828;
+    padding: 4px 10px 4px 40px;
+    color: #fff;
     float: left;
+    text-decoration: none;
+    font-family: 'Francois One', sans-serif;
 }
 
 #main-sidebar {
@@ -84,9 +87,9 @@ body {
 
 #sidebar1 a {
     position: fixed;
-    right: 5px;
+    right: 10px;
     top: 20px;
-    width: 220px;
+    width: 230px;
     height: 40px;
     padding: 5px;
     background-color: #282828;
@@ -108,9 +111,9 @@ body {
 
 #sidebar2 a {
     position: fixed;
-    right: 5px;
+    right: 10px;
     top: 100px;
-    width: 220px;
+    width: 230px;
     height: 40px;
     padding: 5px;
     background-color: #282828;
