@@ -1,8 +1,8 @@
 body {
-    background: -webkit-linear-gradient(#282828, #85C2FF, #282828);
-    background: -o-linear-gradient(#282828, #85C2FF, #282828); 
-    background: -moz-linear-gradient(#282828, #85C2FF, #282828);  
-    background: linear-gradient(#282828, #85C2FF, #282828);
+    background: -webkit-linear-gradient(#0066CC, #85C2FF, #0066CC);
+    background: -o-linear-gradient(#0066CC, #85C2FF, #0066CC); 
+    background: -moz-linear-gradient(#0066CC, #85C2FF, #0066CC);  
+    background: linear-gradient(#0066CC, #85C2FF, #0066CC);
 }
 
 * {
