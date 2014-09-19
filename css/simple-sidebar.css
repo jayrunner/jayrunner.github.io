@@ -26,7 +26,7 @@
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background: #000;
+    background-color: #0c0c0c;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -40,6 +40,7 @@
 #page-content-wrapper {
     width: 100%;
     padding: 15px;
+    background-color: #f2f2f2;
 }
 
 #wrapper.toggled #page-content-wrapper {
@@ -61,18 +62,21 @@
 .sidebar-nav li {
     text-indent: 20px;
     line-height: 40px;
+    background-color: #0c0c0c;
 }
+
 
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #999999;
+    color: #f2f2f2;
 }
 
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #fff;
-    background: rgba(255,255,255,0.2);
+    color: #ffffff;
+    background-color: #0066ff;
+    transition: .3s;
 }
 
 .sidebar-nav li a:active,
@@ -113,7 +117,7 @@
     }
 
     #page-content-wrapper {
-        padding: 20px;
+        padding: 10px 45px;
     }
 
     #wrapper.toggled #page-content-wrapper {
