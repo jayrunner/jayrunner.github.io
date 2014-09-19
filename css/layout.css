@@ -3,11 +3,12 @@ CSS for the layout of my blog.
 */
 
 .block-wrapper {
-    margin: 40px 0 50px 0;
+    margin: 40px auto 50px auto;
     padding-bottom: 50px;
     border-top: 0px solid #f2f2f2;
     background-color: #0c0c0c;
     border-radius: 12px;
+    max-width: 950px;
 }
 
 .block-wrapper .post:hover {
@@ -117,6 +118,8 @@ CSS for the layout of my blog.
 }
 
 #header-wrapper {
+    margin: 0 auto;
+    max-width: 950px;
     padding: 25px;
     padding-top: 30px;
     padding-bottom: 30px;
