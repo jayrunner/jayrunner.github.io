@@ -1,0 +1,9 @@
+/* Css that forms the base of the entire website. */
+
+* {
+    box-sizing: border-box;
+}
+
+.clear {
+    clear:both;
+}
