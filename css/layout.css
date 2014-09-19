@@ -3,11 +3,10 @@ CSS for the layout of my blog.
 */
 
 .block-wrapper {
-    margin: 40px auto 50px auto;
+    margin: 20px auto 10px auto;
     padding-bottom: 50px;
     border-top: 0px solid #f2f2f2;
     background-color: #0c0c0c;
-    border-radius: 12px;
     max-width: 950px;
 }
 
@@ -57,9 +56,7 @@ CSS for the layout of my blog.
     color: #444444;
     font-size: 19px;
     text-align: left;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    border-top: 8px solid #3399ff;
+    border-top: 4px solid #00CCFF;
     padding: 8px 25px;
 }
 
