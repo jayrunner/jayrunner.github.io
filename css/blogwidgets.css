@@ -10,9 +10,10 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px auto;
     border: 1px solid #ccc;
-    width: 510px;
+    width: 70%;
     padding: 5px;
     background-color: #ffffff;
+    max-width: 550px;
 }
 
 #widget-wrapper-1 .post .image-container {
@@ -42,7 +43,7 @@
 #widget-wrapper-1 .post .content-container .price-address .price {
     float: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 130%;
+    font-size: 1.3em;
     color: #2E9AFE;
 }
 
@@ -54,11 +55,11 @@
 }
 
 #widget-wrapper-1 .post .content-container .ad-content {
-    width: 250px;
+    width: 100%;
 }
 
 #widget-wrapper-1 .post .content-container .stats {
-    width: 250px;
+    width: 100%;
     margin-bottom: 6px;
 }
 
@@ -103,7 +104,7 @@
     background-color: #f2f2f2;
     border-radius: 5px;
     padding: 10px;
-    width: 450px;
+    width: 60%;
     border-color: 1px solid #ccc;
 }
 
@@ -372,7 +373,7 @@
 #widget-wrapper-5 .post {
     margin: 0px auto;
     height: 200px;
-    width: 500px;
+    width: 55%;
     border-radius: 5px;
     padding: 20px;
     background-color: #ffffff;
@@ -1028,3 +1029,132 @@
 }
 
 /* end of 11th widget */
+
+
+
+
+
+
+
+
+
+/*start of 12th widget */
+
+#widget-wrapper-12 {
+    margin: 40px auto;
+}
+
+#widget-wrapper-12 .post {
+    border-radius: 6px;
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+    color: #ffffff;
+    padding: 25px;
+    text-align: center;
+    font-family: arial;
+    background-color: #19A3D1;
+    min-width: 220px;
+}
+
+#widget-wrapper-12 .j-title {
+    font-size: 2em;
+    margin-bottom: 15px; 
+    font-weight: 700;
+    padding: 0 40px;
+}
+
+#widget-wrapper-12 .j-info {
+    font-size: 1.2em;
+    margin-bottom: 15px;   
+}
+
+#widget-wrapper-12 .j-buttons button {
+    display: inline;
+    width: 180px;
+    padding: 2px;
+    height: 45px;
+    border-radius: 4px;
+    border: 2px solid #ffffff;
+    margin-right: 4px;
+    margin-bottom: 6px;
+    background-color: #E6E600;
+    font-size: 12px;
+    color: #ffffff;
+    text-shadow: 1px 1px #444444;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: .6s;
+    cursor: pointer;
+}
+
+#widget-wrapper-12 .j-buttons button:hover {
+    background-color: #009933 !important;
+    border-color: #2E8AE6 !important;
+}
+
+/*end of widget-12*/
+
+
+
+
+
+
+
+
+
+/*widget 13 starts here */
+#widget-wrapper-13 {
+    margin: 40px auto;
+}
+
+#widget-wrapper-13 .post {
+    margin: 0 auto;
+    width: 350px;
+    height: 350px;
+    border-radius: 100px;
+    border: 1px solid #66ccff;
+    text-align: center;
+    color: #cccccc;
+    background-color: #ffffff;
+    font-size: 30px;
+}
+
+#widget-wrapper-13 .post .my-title {
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#widget-wrapper-13 .post input {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 20px; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #0066ff;
+    color: #ccc !important;
+}
+
+#widget-wrapper-13 .post input:hover {
+    border-color: red;
+}
+
+#widget-wrapper-13 .post input:focus {
+    color: green;
+}
+
+#widget-wrapper-13 .post button {
+    width: 200px;
+    height: 30px;
+    color: #0066ff;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;  
+    font-size: 12px; 
+}
+
