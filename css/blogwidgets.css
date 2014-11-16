@@ -1140,6 +1140,10 @@
     color: #ccc !important;
 }
 
+#widget-wrapper-13.post input:placeholder {
+    color: #ccc;
+}
+
 #widget-wrapper-13 .post input:hover {
     border-color: red;
 }
