@@ -12,6 +12,7 @@
     <link href="css/layout.css" rel="stylesheet">
     <!--google fonts-->
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:900italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
 
@@ -76,7 +77,13 @@
                     <a href="#widget-12">12) Sapling Learning Widget</a>
                 </li>
                  <li>
-                    <a href="#widget-13">12) The Cloud Login</a>
+                    <a href="#widget-13">13) The Cloud Login</a>
+                </li>
+                 <li>
+                    <a href="#widget-14">14) Web Profile Widget</a>
+                </li>
+                 <li>
+                    <a href="#widget-15">15) Simple Profile Widget</a>
                 </li>
             </ul>
         </div>
@@ -88,7 +95,7 @@
 
                 <div class="clearfix" id="header-wrapper">
                     <span class="page-span">
-                    <img src="images/profile.jpg">
+                    <img src="images/prof.jpg">
                     <div class="name-span">
                         <span>Jay</span>
                         <span> Berube | </span>
@@ -172,6 +179,92 @@
                         
                             </div>
                         </div>
+
+
+                        <div class="jcode">
+                        <code>
+                            #widget-wrapper-1 {
+                                margin: 40px auto;
+                            }
+
+                            #widget-wrapper-1 .post {
+                                font-family: Arial, Helvetica, sans-serif;
+                                margin: 0px auto;
+                                border: 1px solid #ccc;
+                                width: 70%;
+                                padding: 5px;
+                                background-color: #ffffff;
+                                max-width: 550px;
+                            }
+
+                            #widget-wrapper-1 .post .image-container {
+                                width: 220px;
+                                height: 150px;
+                                margin: 5px;
+                                padding: 2px;
+                                float: left;
+                            }
+                            #widget-wrapper-1 .post .image-container img {
+                                width: 220px;
+                                height: 150px;
+                            }
+
+                            #widget-wrapper-1 .post .content-container {
+                                width: 250px;
+                                margin: 0px 5px 5px 5px;
+                                padding: 2px;
+                                float: left;
+                            }
+
+                            #widget-wrapper-1 .post .content-container .price-address {
+                                width: 250px;
+                                margin-bottom: 5px;
+                            }
+
+                            #widget-wrapper-1 .post .content-container .price-address .price {
+                                float: left;
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 1.3em;
+                                color: #2E9AFE;
+                            }
+
+                            #widget-wrapper-1 .post .content-container .price-address .address {
+                                float: left;
+                                color: #6E6E6E;
+                                margin-left: 25px;
+                                font-size: 14px;
+                            }
+
+                            #widget-wrapper-1 .post .content-container .ad-content {
+                                width: 100%;
+                            }
+
+                            #widget-wrapper-1 .post .content-container .stats {
+                                width: 100%;
+                                margin-bottom: 6px;
+                            }
+
+                            #widget-wrapper-1 .post .content-container .stats span {
+                                padding-right: 6px;
+                                margin-right: 4px;
+                                border-right: 1px solid #ccc;
+                                color: #151515;
+                            }
+
+                            #widget-wrapper-1 .post .content-container .stats span:last-child {
+                                border: none !important;
+                            }
+
+                            #widget-wrapper-1 .post .content-container .description {
+                                margin-bottom: 6px;
+                                color: #6E6E6E;
+                            }
+
+                            #widget-wrapper-1 .post .content-container .signature {
+                                color: #BDBDBD;
+                            }
+                        </code>
+                    </div>
                      
                 </div>
 
@@ -248,6 +341,85 @@
                                 </form>
                             </div>
                         </div>
+
+                        <div class="jcode">
+                        <code>
+                            #widget-wrapper-2 {   
+                                margin: 40px auto; 
+                                font-family: Arial, Helvetica, sans-serif;
+                            }
+
+                            #widget-wrapper-2 .post {
+                                margin: 0 auto;
+                                background-color: #f2f2f2;
+                                border-radius: 5px;
+                                padding: 10px;
+                                width: 60%;
+                                border-color: 1px solid #ccc;
+                            }
+
+                            #widget-wrapper-2 .post .left {
+                                float:left;
+                                width: 180px;
+                            }
+
+                            #widget-wrapper-2 .post .right {
+                                float: right;
+                                width: 237px;
+                            }
+
+                            #widget-wrapper-2 .post label {
+                                display: block;
+                                margin-bottom: 6px;
+                                font-size: 12px;
+                            }
+
+                            #widget-wrapper-2 .post .input-control {
+                                margin-bottom: 6px;
+                            }
+
+                            #widget-wrapper-2 .post .left input {
+                                padding: 5px;
+                                font-size: 14px;
+                                width: 147px;
+                            }
+
+                            #widget-wrapper-2 .post .left select {
+                                padding: 5px;
+                                font-size: 10px;
+                                width: 155px;
+                            }
+
+                            #widget-wrapper-2 .post .right textarea {
+                                width: 232px;
+                                max-width: 240px;
+                                min-width: 160px;
+                                max-height: 160px;
+                                min-height: 95px;
+                                height: 150px;
+                            }
+
+                            #widget-wrapper-2 .post .right button {
+                                float: right;
+                                margin: 6px 6px 0;
+                                width: 40px;
+                                height: 20px;
+                                color: #ffffff;
+                                background-color: #0040ff;
+                                border: 1px solid #0040ff;
+                                font-size: 12px;
+                                cursor: pointer;
+                                border-radius: 5px;
+                            }
+
+                            #widget-wrapper-2 .post input, select, textarea {
+                                display: block;
+                                padding: 5px;
+                                border-radius: 5px;
+                                border: 1px solid #ccc;
+                            }
+                        </code>
+                        </div>
                         
                 </div>
                 <!-- end of second widget-->
@@ -276,7 +448,7 @@
                             <div class="post">
                             
                                  <div class="head">
-                                    <img src="http://m.c.lnkd.licdn.com/mpr/pub/image-RXvfiEZNEqpyonFL__ieB0kG4ZdE1v19pgviZCRC4vcZxkUeRXviPvwN4E1fjZkAtfY2/jay-berube.jpg"/>
+                                    <img src="images/prof.jpg"/>
                                     <div class="title">Jay Berube</div>
                                     <div class="info">Shared publicly-Jun 27,2014</div>
                                 
@@ -296,6 +468,110 @@
                                 </div>
                             
                             </div>
+                        </div>
+
+                        <div class="jcode">
+                        <code>
+                            #widget-wrapper-3 {
+                                margin: 40px auto; 
+                            }
+
+                            #widget-wrapper-3 {
+                                 font-family: Arial, Helvetica, sans-serif;
+                                color: #3d3d3d;
+                            }
+
+                            #widget-wrapper-3 .post {
+                                padding: 15px;
+                                position: relative;
+                                margin: 30px auto;
+                                width: 500px;
+                                background-color: #FFFFFF;
+                                border: 1px solid #E0E0E0;
+                                border-radius: 2px;
+                            }
+
+                            #widget-wrapper-3 .post .head {
+                                width: 100%;
+                                float: left;
+                                margin-bottom: 10px;
+                            }
+
+                            #widget-wrapper-3 .post .head img {
+                                margin-right: 10px;
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 50px;
+                                float: left;
+                            }
+
+                            #widget-wrapper-3 .post .head .title {
+                                width: 40%;
+                                margin-bottom: 5px;
+                                font-weight: 700;
+                                font-size: 18px;
+                                float: left;
+                            }
+
+                            #widget-wrapper-3 .post .head .info {
+                                width: 50%;
+                                font-size: 14px;
+                                float: left;
+                            }
+
+                            #widget-wrapper-3 .post .head .right {
+                                background-color: #f2f2f2;
+                                padding: 6px;
+                                position: absolute;
+                                top: 25px;
+                                right: 0px;
+                                width: 20%;
+                                float: right;
+                            }
+
+                            #widget-wrapper-3 .post .head .colorblock {
+                                background-color: #4d91f0;
+                                width: 4px;
+                                height: 60px;
+                                position: absolute;
+                                top: 25px;
+                                right: -4px;
+                            }
+
+                            #widget-wrapper-3 .post .passage {
+                                margin-bottom: 30px;
+                                font-size: 12px;
+                            }
+
+                            #widget-wrapper-3 .post .footer {
+                                width: 100%;
+                            }
+
+                            #widget-wrapper-3 .post .footer button {
+                                margin-right: 5px;
+                                height: 35px;
+                                width: 40px;
+                                background-color: #ffffff;
+                                border: 1px solid #ccc;
+                                border-radius: 4px;
+                                cursor: pointer;
+                            }
+
+                            #widget-wrapper-3 .post .footer button:hover {
+                                color: #fff;
+                                background-color: #3d3d3d;
+                                border-color: #3d3d3d;
+                            }
+
+                            #widget-wrapper-3 .post .footer input {
+                                width: 74%;
+                                height: 35px;
+                                padding: 5px;
+                                font-size: 16px;
+                                border-radius: 4px;
+                                border: 1px solid #ccc;
+                            }
+                        </code>
                         </div>
                     
                     </div>
@@ -337,6 +613,72 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+
+                        <div class="jcode">
+                        <code>
+                            #widget-wrapper-4 {
+                                font-family: Arial, Helvetica, sans-serif;
+                                margin: 40px auto; 
+                            }
+
+                            #widget-wrapper-4 .post {
+                                margin: 0 auto;
+                                padding: 0px;
+                                width:500px;
+                                height: 800px;
+                                background-color: #fff;
+                                border-radius: 8px;
+                            }
+
+                            #widget-wrapper-4 .post img {
+                                border-top-right-radius: 8px;
+                                border-top-left-radius: 8px;
+                                width: 500px;
+                                height: 300px;
+                                margin: 0;
+                                padding: 0;
+                            }
+
+                            #widget-wrapper-4 .post .content {
+                                width: 480px;
+                                padding-left: 5px;
+                                margin: 30px 15px 20px 15px;
+                                line-height: 2.8em;
+                            }
+
+                            #widget-wrapper-4 .post .content .title {
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 40px;
+                                color: #383838;
+                                margin-bottom: 30px;
+                            }
+
+                            #widget-wrapper-4 .post .content .info {
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 30px;
+                                padding: 5px;
+                                color: #383838;
+                            }
+
+                            #widget-wrapper-4 .post .content .footer button {
+                                font-family: Arial, Helvetica, sans-serif;
+                                color: #3838383;
+                                margin: 25px 6px 0;    
+                                padding: 5px 10px 5px 10px;
+                                border: 2px solid #ccc;
+                                border-radius: 8px;
+                                font-size: 170%;
+                                background-color: #fff;
+                            }
+
+                            #widget-wrapper-4 .post .content .footer button:hover {
+                                background-color: #81DAF5;
+                                color: #fff;
+                                
+                            }
+ 
+                        </code>
                         </div>
                     
                     </div>
@@ -382,6 +724,67 @@
                                 </div>
                                 
                             </div>
+                        </div>
+
+                        <div class="jcode">
+                        <code>
+                            #widget-wrapper-5 {
+                                font-family: Arial, Helvetica, sans-serif;
+                                margin: 40px auto; 
+                            }
+
+                            #widget-wrapper-5 .post {
+                                margin: 0px auto;
+                                height: 200px;
+                                width: 55%;
+                                border-radius: 5px;
+                                padding: 20px;
+                                background-color: #ffffff;
+                                color: #2d2e2e;
+                            }
+
+                            #widget-wrapper-5 #name {
+                                font-size: 22px;
+                                font-weight: 700;
+                                margin-bottom: 10px;
+                                color: #2d2e2e;
+                            }
+
+                            #widget-wrapper-5 .post .content {
+                                width: 100%;
+                                margin-bottom: 20px;
+                            }
+
+                            #widget-wrapper-5 .percent {
+                                float: right;
+                                width: 10%;
+                            }
+
+                            #widget-wrapper-5 .data {
+                                float: left;
+                                width: 50%;
+                            }
+
+                            #widget-wrapper-5 #grad-1 {
+                                width: 100%;
+                                height: 20px;
+                                border-radius: 5px;
+                                background: -webkit-linear-gradient(left, #f2f2f2 55%, #4d91f0 45%);
+                                background: -o-linear-gradient(right, #f2f2f2 55%, #4d91f0 45%); 
+                                background: -moz-linear-gradient(right, #f2f2f2 55%, #4d91f0 45%); 
+                                background: linear-gradient(right, #f2f2f2 55%, #4d91f0 45%); 
+                            }
+
+                            #widget-wrapper-5 #grad-2 {
+                                width: 100%;
+                                height: 20px;
+                                border-radius: 5px;
+                                background: -webkit-linear-gradient(left, #f2f2f2 70%, #42c24d 30%);
+                                background: -o-linear-gradient(right, #f2f2f2 70%, #42c24d 30%); 
+                                background: -moz-linear-gradient(right, #f2f2f2 70%, #42c24d 30%); 
+                                background: linear-gradient(right, #f2f2f2 70%, #42c24d 30%); 
+                            }
+                        </code>
                         </div>
                     
                 
@@ -437,6 +840,88 @@
                                 </form>
                                 
                             </div>
+                        </div>
+
+                        <div class="jcode">
+                        <code>
+                            #widget-wrapper-6 {
+                                 margin: 40px auto; 
+                                 font-family: Arial, Helvetica, sans-serif;
+                                 width: 350px;
+                            }
+
+                            #widget-wrapper-6 .post {
+                                margin: 30px auto;
+                                background-color: #f2f2f2;
+                                width: 350px;
+                                padding:20px;
+                                border-radius: 5px;
+                                border: 1px solid #ccc;
+                            }
+
+                            #widget-wrapper-6 .app-header {
+                                width: 100%;
+                                margin-bottom: 30px;
+                                font-weight: 700;
+                                border: 1px solid #ccc;
+                                padding-bottom: 10px;
+                                border-left: none;
+                                border-right: none;
+                                border-top: none;
+                            }
+
+                            #widget-wrapper-6 .app-header .web-title {
+                                font-size: 24px;
+                                color: #2a2a2a;
+                            }
+
+                            #widget-wrapper-6 .post .full-name {
+                                margin-bottom: 35px;
+                            }
+
+                            #widget-wrapper-6 .post .username {
+                                margin-bottom: 35px;
+                            }
+
+                            #widget-wrapper-6 .post .password {
+                                margin-bottom: 15px;
+                            }
+
+                            #widget-wrapper-6 .post .jr-form-control input {
+                                color: #2a2a2a;
+                                font-size: 18px;
+                                width: 95%;
+                                padding: 8px;
+                                border-radius: 5px;
+                                border: 1px solid #ccc;
+                            }
+
+                            #widget-wrapper-6 .post .jr-form-control input:hover {
+                                border-color: #e39d05;
+                            }
+
+                            #widget-wrapper-6 .post .jr-form-control input:focus {
+                                border-color: #e39d05;
+                            }
+
+                            #widget-wrapper-6 .post .button button {
+                                margin-bottom: 15px;
+                                font-size: 18px;
+                                font-weight: 500;
+                                width: 60%;
+                                padding: 5px;
+                                border-radius: 5px;
+                                background-color: #FAB82A;
+                                border: 1px solid #E69E02;
+                                color: #fff;
+                                cursor: pointer;
+                            }
+
+                            #widget-wrapper-6 .post .button button:hover {
+                                background-color: #E39D05 !important;
+                                border-color: #E39D05 !important;
+                            }
+                        </code>
                         </div>
                    
                     </div>
@@ -502,6 +987,89 @@
                                     </form>
                                 </div>
                             </div>
+                        </div>
+
+                        <div class="jcode">
+                        <code>
+                            #widget-wrapper-7 {
+                                margin: 40px auto; 
+                            }
+
+                            #widget-wrapper-7 .post {
+                                margin: 0px auto;
+                                padding: 0px;
+                                width: 450px;
+                                font-family: Arial, Helvetica, sans-serif;
+                            }
+
+                            #widget-wrapper-7 .post .top {
+                                border-top-left-radius: 4px;
+                                border-top-right-radius: 4px;
+                                padding: 20px 0 20px 20px;
+                                background-color: #F5F5F5;
+                                width: 100%;
+                            }
+
+                            #widget-wrapper-7 .post .top .main {
+                                font-size: 24px;
+                                font-weight: 600;
+                                float: left;
+                            }
+
+                            #widget-wrapper-7 .post .top .sub {
+                                float: left;
+                                color: #7A7A7A;
+                                margin: 8px 0 0 10px;
+                            }
+
+                            #widget-wrapper-7 .post .bottom {
+                                background-color: #D3D3D3;
+                                width: 450px;
+                                padding: 20px;
+                                border-bottom-right-radius: 4px;
+                                border-bottom-left-radius: 4px; 
+                            }
+
+                            #widget-wrapper-7 .post .bottom .ja-form-control {
+                                margin-bottom: 20px;
+                            }
+
+                            #widget-wrapper-7 .post .bottom .ja-form-control:last-child{
+                                margin-bottom: 0px !important;
+                            }
+
+                            #widget-wrapper-7 .post .bottom input{
+                                width: 100%;
+                                display: block; 
+                                padding: 10px;
+                                font-size: 15px;
+                                border-radius: 4px;
+                                border: 1px solid transparent;
+                            }
+
+                            #widget-wrapper-7 .post .bottom button{
+                                width: 100%;
+                                background-color: #46b8da;
+                                border: 1px solid #46b8da;
+                                color: #FFFFFF;
+                                padding: 10px;
+                                border-radius: 4px;
+                                font-size: 15px;
+                                cursor: pointer;
+                            }
+
+                            #widget-wrapper-7 .post .bottom .double input{
+                                width: 44% !important;
+                            }
+
+                            #widget-wrapper-7 .post .bottom .double input:first-child{
+                                float: left;
+                            }
+
+                            #widget-wrapper-7 .post .bottom .double input:first-child + input{
+                                float: right;
+                            } 
+                        </code>
                         </div>
                 
                     </div>
@@ -570,6 +1138,88 @@
                                     </form>
                                 </div>
                         </div>
+
+                        <div class="jcode">
+                        <code>
+                            #widget-wrapper-8 {
+                                margin: 40px auto; 
+                            }
+
+                            #widget-wrapper-8 .post {
+                                font-family: Arial, Helvetica, sans-serif;
+                                margin: 0 auto;
+                                width: 350px;
+                                max-width: 350px;
+                                min-width: 250px;
+                                border-radius: 10px;
+                                background-color: #fff;
+                                padding: 15px;
+                                border: 2px solid #ccc;
+                            }
+
+                            #widget-wrapper-8 .post .field-control {
+                                margin-bottom: 12px;
+                            }
+
+                            #widget-wrapper-8 .post .field-control label {
+                                display: block;
+                                margin-bottom: 10px;
+                                font-size: 22px;
+                                color: #111111;
+                            }
+
+                            #widget-wrapper-8 .post .field-control input {
+                                display: block;
+                                padding: 10px;
+                                border-radius: 5px;
+                                border: 1px solid #ccc;
+                                font-size: 20px;
+                                width: 325px;
+                            }
+
+                            #widget-wrapper-8 .post .field-control input:hover {
+                                border-color: #2C9BF7 !important;
+                            }
+
+                            #widget-wrapper-8 .post .field-control input:focus {
+                                border-color: #2c9bf7 !important;
+                            }
+
+                            #widget-wrapper-8 .post .field-control select {
+                                display: block;
+                                padding: 10px;
+                                border-radius: 5px;
+                                border: 1px solid #ccc;
+                                font-size: 20px;
+                                width: 100%;
+                                color: #868686;
+                            }
+
+                            #widget-wrapper-8 .post .field-control select:hover {
+                                border-color: #2C9BF7;
+                            }
+
+                            #widget-wrapper-8 .post .button button {
+                                width: 100%;
+                                padding: 10px;
+                                color: #fff;
+                                background-color: #005CE6;
+                                border-radius: 5px;
+                                border: 1px solid #005CE6;
+                                font-size: 20px;
+                                font-weight: 700;
+                                -webkit-transition-duration: 0.3s;
+                                -moz-transition-duration: 0.3s;
+                                transition-duration: 0.3s;
+                                cursor: pointer;
+                            }
+
+                            #widget-wrapper-8 .post .button button:hover {
+                                background-color: #0040A0;
+                                border: 1px solid #0040A0;
+                            }
+                        </code>
+                        </div>
                     
                     </div>
 
@@ -607,7 +1257,7 @@
                             <div class="right-control">
                                 <div class="top">
                                     <div class="content-control">
-                                        <img src="https://media.licdn.com/mpr/mpr/shrink_120_120/p/7/005/055/1a8/0f3eeaf.jpg"/>
+                                        <img src="images/prof.jpg"/>
                                         <div id="exit">x</div>
                                         <div class="clear"></div>
                                         <div class="content">
@@ -662,6 +1312,99 @@
                             <div class="clear"></div>
                         </div>
                     </div>
+
+                    <div class="jcode">
+                    <code>
+                            #widget-wrapper-9 {
+                                font-family: Arial, Helvetica, sans-serif;
+                                margin: 40px auto;
+                            }
+
+                            #widget-wrapper-9 .post {
+                                margin: 0 auto;
+                                width: 610px;
+                                background-color: #fff; 
+                            }
+
+                            #widget-wrapper-9 .post .left-control {
+                                width: 400px;
+                                float: left;
+                                background-color: #0b0b0b;
+                                height: 330px;
+                            }
+
+                            #main-img {
+                                width: 250px;
+                                height: 330px;
+                                margin-left: 75px;
+                                margin-right: 75px;
+                                cursor: pointer;
+                            }
+
+                            #exit {
+                                float: right;
+                                margin-right: 5px;
+                                color: #7b7b7b;
+                                font-weight:  700;
+                                cursor: pointer;
+                            }
+
+                            #widget-wrapper-9 .post .right-control {
+                                float: left;
+                                width: 200px;
+                                padding: 5px;
+                                height: 320px;
+                                background-color: #fff;
+                            }
+
+                            #widget-wrapper-9 .top {
+                                height: 270px;
+                                width: 100%;
+                                border-bottom: 1px solid #ccc;
+                                margin-bottom: 10px;
+                                padding-bottom: 4px;
+                            }
+
+                            #widget-wrapper-9 .top .content-control img {
+                                height: 26px;
+                                width: 26px;
+                                border-radius: 26px;
+                                cursor: pointer;
+                            }
+
+                            #widget-wrapper-9 .content {
+                                margin-bottom: 10px;
+                            }
+
+                            #widget-wrapper-9 .name {
+                                color: #0066ff;
+                                font-size: 12px;
+                                margin-bottom: 3px;
+                                cursor: pointer;
+                            }
+
+                            #widget-wrapper-9 .text {
+                                color: #2a2a2a;
+                                font-size: 10px;
+                                margin-bottom: 1px;
+                            }
+
+                            #widget-wrapper-9 .date {
+                                color: #666666;
+                                font-size: 10px;
+                            }
+
+                            #widget-wrapper-9 .bottom {
+                                height: 10px;
+                            }
+
+                            #widget-wrapper-9 .bottom input {
+                                padding: 4px;
+                                width: 95%;
+                                height: 20px;
+                            }
+                    </code>
+                    </div>
                
                 </div>
                     <!-- end of 9th widget-->
@@ -705,6 +1448,100 @@
                                         </div>
                                     </form>
                              </div>
+                        </div>
+
+                        <div class="jcode">
+                        <code>
+                                #widget-wrapper-10 {
+                                    font-family: Arial, Helvetica, sans-serif;
+                                    margin: 40px auto; 
+                                }
+
+                                #widget-wrapper-10 .post {
+                                    margin: 0 auto;
+                                    box-shadow: 0px 0px 12px 2px #0c0f0c;
+                                    width: 450px;
+                                    padding: 50px;
+                                    border-radius: 30px;
+                                    background: linear-gradient(-45deg, #FF6600 0px, #FF6600 50px,#0066FF 50px, #0066FF
+                                 100px, #E61616 100px, #E61616 150px, #009933
+                                 150px, #009933
+                                 200px, #FFFF19 200px, #FFFF19 250px, #CC0099
+                                 250px, #CC0099 300px, #FF6600 300px, #FF6600 350px,#0066FF
+                                 350px, #0066FF
+                                 400px, #E61616 400px, #E61616 450px, #009933
+                                 450px, #009933
+                                 500px, #FFFF19 500px, #FFFF19 550px);
+                                    color: #fff;
+                                    text-align: center;
+                                }
+
+                                #widget-wrapper-10 .post .jay-form-control {
+                                    margin-bottom: 40px;
+                                    width: 100%;
+                                }
+
+                                #widget-wrapper-10 .post .jay-form-control label {
+                                    font-size: 24px;
+                                    margin-right: 10px;
+                                    color: #0c0c0c;
+                                }
+
+                                #widget-wrapper-10 .post .jay-form-control input:hover {
+                                   box-shadow: 0px 0px 6px 4px #fff;
+                                   border-color: #fff;
+                                   color: #fff;
+                                   background-image: linear-gradient(-45deg, #FF6600 0px, #FF6600 40px,#0066FF 40px, #0066FF
+                                 80px, #E61616 80px, #E61616 120px, #009933
+                                 120px, #009933
+                                 160px, #FFFF19 160px, #FFFF19 200px, #CC0099
+                                 200px, #CC0099 240px, #FF6600 280px, #FF6600 220px,#0066FF
+                                 260px, #0066FF
+                                 260px, #E61616 300px, #E61616 340px, #009933
+                                 380px, #009933
+                                 380px, #FFFF19 420px, #FFFF19 460px); 
+                                }
+
+                                #widget-wrapper-10 .post .jay-form-control input:focus {
+                                    box-shadow: none;
+                                    color: #61c5fa;
+                                    background-color: #0C050C;
+                                    border-color: #0c050c;
+                                    background-image: none;
+                                }
+
+                                #widget-wrapper-10 .post .jay-form-control input {
+                                    padding: 10px;
+                                    width: 200px;
+                                    border-radius:10px;
+                                    border: 1px solid #ccc;
+                                    font-size: 15px;
+                                    color: #0066ff;
+                                    border-radius: 10px;
+                                }
+
+                                #widget-wrapper-10 .post .button-control button {
+                                    width: 340px;
+                                    height: 50px;
+                                    border-radius: 10px;
+                                    font-size: 24px;
+                                    color: #fff;
+                                    font-family: Arial, Helvetica, sans-serif;
+                                    background-color: #0C050C;
+                                    border: 1px solid #0c050c;
+                                }
+
+                                #widget-wrapper-10 .post .button-control button:hover {
+                                     background: linear-gradient(-45deg, #FF6600 0px, #FF6600 50px,#0066FF
+                                 50px, #0066FF
+                                 100px, #E61616 100px, #E61616 150px, #009933
+                                 150px, #009933
+                                 200px, #FFFF19 200px, #FFFF19 250px, #CC0099
+                                 250px);
+                                    border: none;
+                                    box-shadow: 0px 0px 18px 10px #0c050c;
+                                }
+                        </code>
                         </div>
                   
                     </div>
@@ -758,6 +1595,131 @@
                                 </form>
                             </div>
                         </div>
+
+                        <div class="jcode">
+                        <code>
+                                #widget-wrapper-11 {
+                                    color: #0c0c0c;
+                                    margin: 40px auto; 
+                                    font-family: Arial, Helvetica, sans-serif;
+                                }
+
+                                #widget-wrapper-11 .post {
+                                    margin: 40px auto;
+                                    width: 450px;
+                                }
+
+                                #widget-wrapper-11 .post .over {
+                                    background-color: #00B8E6;
+                                    color: #fff;
+                                    width: 100%;
+                                    font-size: 18px;
+                                    text-align: left;
+                                    padding: 4px 6px;
+                                }
+
+                                #widget-wrapper-11 .post .under {
+                                    font-size: 14px;
+                                    width: 100%;
+                                    height: 130px;
+                                    padding: 18px 4px 14px 4px;
+                                    background-color: #ccc;
+                                    color: #0c0c0c;
+                                }
+
+                                #widget-wrapper-11 .content {
+                                    margin-bottom: 15px;
+                                }
+
+                                #widget-wrapper-11 .one,
+                                #widget-wrapper-11 .two {
+                                    width: 100%;
+                                }
+
+                                #widget-wrapper-11 .three, #widget-wrapper11 .four {
+                                    display: inline;
+                                }
+
+                                #widget-wrapper-11 .content .jay-form-control input {
+                                    border: 1px solid #ccc;
+                                    width: 130px;
+                                }
+
+                                #widget-wrapper-11 .content .jay-form-control input:hover {
+                                    border: 1px solid #008AE6 !important;
+                                }
+
+                                #widget-wrapper-11 .content .jay-form-control input:focus {
+                                    border: 1px solid #FF3300 !important;
+                                }
+
+                                #widget-wrapper-11 .one .jay-form-control {
+                                    margin-right: 10px;
+                                    display: inline;
+                                }
+
+                                #widget-wrapper-11 .two {
+                                    margin-left: 120px;
+                                }
+
+                                #widget-wrapper-11 .two a {
+                                    margin-right: 4px;
+                                    color: #0c0c0c;
+                                    font-size: 12px;
+                                }
+
+                                #widget-wrapper-11 .two a:active {
+                                    color: #A31919 !important;
+                                }
+
+                                #widget-wrapper-11 .two button {
+                                    padding: 2px 30px 2px 30px;
+                                    background-color: #FF4719;
+                                    color: #fff;
+                                    border-radius: 4px;
+                                    border-color: #FF4719;
+                                    box-shadow: 0px 2px 2px #0c0c0c;
+                                }
+
+                                #widget-wrapper-11 .two button:hover {
+                                    background-color: #00A3CC !important;
+                                    border-color: #00A3CC !important;
+                                }
+
+                                #widget-wrapper-11 .two button:active {
+                                    background-color: #00627A !important;
+                                    border-color: #00627A !important;
+                                }
+
+                                #widget-wrapper-11 .three {
+                                    margin-left: 322px;
+                                }
+
+                                #widget-wrapper-11 .three a {
+                                    color: #0c0c0c;
+                                    font-size: 12px;     
+                                }
+
+                                #widget-wrapper-11 .three a:active {
+                                    color: #A31919;
+                                }
+
+                                #widget-wrapper-11 .post .four img {
+                                    margin-top: -22px;
+                                    margin-right: 28px;
+                                    float: right;
+                                    width: 24px;
+                                    height: 24px;
+                                    cursor: pointer;
+                                    opacity: .7;
+                                    border-radius: 3px;
+                                }
+
+                                #widget-wrapper-11 .post img:hover {
+                                    opacity: 1 !important;
+                                }
+                        </code>
+                        </div>
                   
                     </div>
                 <!-- end of 11th widget-->
@@ -781,6 +1743,64 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="jcode">
+                            <code>
+                                    #widget-wrapper-12 {
+                                        margin: 40px auto;
+                                    }
+
+                                    #widget-wrapper-12 .post {
+                                        border-radius: 6px;
+                                        margin: 0 auto;
+                                        width: 60%;
+                                        height: auto;
+                                        color: #ffffff;
+                                        padding: 25px;
+                                        text-align: center;
+                                        font-family: arial;
+                                        background-color: #19A3D1;
+                                        min-width: 220px;
+                                    }
+
+                                    #widget-wrapper-12 .j-title {
+                                        font-size: 2em;
+                                        margin-bottom: 15px; 
+                                        font-weight: 700;
+                                        padding: 0 40px;
+                                    }
+
+                                    #widget-wrapper-12 .j-info {
+                                        font-size: 1.2em;
+                                        margin-bottom: 15px;   
+                                    }
+
+                                    #widget-wrapper-12 .j-buttons button {
+                                        display: inline;
+                                        width: 180px;
+                                        padding: 2px;
+                                        height: 45px;
+                                        border-radius: 4px;
+                                        border: 2px solid #ffffff;
+                                        margin-right: 4px;
+                                        margin-bottom: 6px;
+                                        background-color: #E6E600;
+                                        font-size: 12px;
+                                        color: #ffffff;
+                                        text-shadow: 1px 1px #444444;
+                                        text-transform: uppercase;
+                                        font-weight: 700;
+                                        transition: .6s;
+                                        cursor: pointer;
+                                    }
+
+                                    #widget-wrapper-12 .j-buttons button:hover {
+                                        background-color: #009933 !important;
+                                        border-color: #2E8AE6 !important;
+                                    }
+                            </code>
+                        </div>
+
                     </div>
 
                     <!--end of widget 12-->
@@ -794,16 +1814,350 @@
                         </div>
 
 
-                    <div id="widget-wrapper-13">
-                        <div class="post">
-                            <div class="my-title">The Cloud</div>
-                            <input placeholder="First Name" type="text"/>
-                            <input placeholder="Last Name" type="text"/>
-                            <input placeholder="Username" type="username"/>
-                            <input placeholder="Password" type="password"/>
-                            <button>Submit</button>
+                      <div id="widget-wrapper-13">
+                            <div class="post">
+                                
+                                <div class="app-header">
+                                    <div class="web-title">The Cloud</div>
+                                </div>
+                                
+                                <form>
+                                    
+                                    <div class="jr-form-control full-name">
+                                        <input id="fullname" placeholder="Full Name" type="text" name="fullname"/>
+                                    </div>
+                                    
+                                    <div class="jr-form-control username">
+                                        <input id="username" placeholder="Username" type="username" name="username"/>
+                                    </div>
+                                    
+                                    <div class="jr-form-control password">
+                                        <input id="password" placeholder="Password" type="password" name="password"/>
+                                    </div>
+                                    
+                                    <div class="button">
+                                        <button>Sign up</button>
+                                    </div>
+                                </form>
+                                
+                            </div>
                         </div>
+
+                        <div class="jcode">
+                    <code>
+                        #widget-wrapper-13 {
+                             margin: 40px auto; 
+                             font-family: Arial, Helvetica, sans-serif;
+                        }
+
+                        #widget-wrapper-13 .post {
+                            margin: 30px auto;
+                            background-color: #ffffff;
+                            width: 380px;
+                            padding:20px;
+                            border-radius: 210px;
+                            border: 6px solid #0066ff;
+                        }
+
+                        #widget-wrapper-13 .app-header {
+                            margin: 0 auto;
+                            width: 50%;
+                            margin-bottom: 30px;
+                            font-weight: 700;
+                            border: 1px solid #ccc;
+                            padding-bottom: 10px;
+                            border-left: none;
+                            border-right: none;
+                            border-top: none;
+                        }
+
+                        #widget-wrapper-13 .app-header .web-title {
+                            font-size: 24px;
+                            color: #0066ff;
+                            text-align: center;
+                        }
+
+                        #widget-wrapper-13 .post .full-name {
+                            margin-bottom: 35px;
+                        }
+
+                        #widget-wrapper-13 .post .username {
+                            margin-bottom: 35px;
+                        }
+
+                        #widget-wrapper-13 .post .password {
+                            margin-bottom: 15px;
+                        }
+
+                        #widget-wrapper-13 .post .jr-form-control input {
+                            color: #0066ff;
+                            margin-left: 20%;
+                            font-size: 18px;
+                            width: 60%;
+                            padding: 8px;
+                            border-radius: 5px;
+                            border: 1px solid #ccc;
+                        }
+
+                        #widget-wrapper-13 .post .jr-form-control input:hover {
+                            border-color: #0066ff;
+                        }
+
+                        #widget-wrapper-13 .post .jr-form-control input:focus {
+                            border-color: #0066ff;
+                            text-align: center;
+                        }
+
+                        #widget-wrapper-13 .post .button button {
+                            margin-left: 20%;
+                            margin-bottom: 15px;
+                            font-size: 18px;
+                            font-weight: 500;
+                            width: 60%;
+                            padding: 5px;
+                            border-radius: 6px;
+                            background-color: #0066ff;
+                            border-top: 0px transparent;
+                            border-left: 0px transparent;
+                            border-bottom: 4px solid #494949;
+                            border-right: 4px solid #494949;
+                            color: #fff;
+                            cursor: pointer;
+                        }
+
+                        #widget-wrapper-13 .post .button button:hover {
+                            background-color: #0044ff !important;
+                            color: #fff;
+                        }
+                    </code>
                     </div>
+                   
+                    </div>
+
+                    
+
+                </div>
+
+                   <div id="widget-14" class="block-wrapper">
+                        
+                        <div class="widget-info">
+                            <div class="widget-title">Web Profile Widget</div>
+                            <span class="glyphicon glyphicon-time"></span><span class="widget-date"> August 9th-2014</span>
+                            <div class="widget-notes">This is a widget I created that allows the user to have a name, description, profile picture and background image to complement their profile pciture. I created it because it helped me learn how to methodically create a widget that made use of position:absolute, as well as many other attributes.</div>
+                        </div>
+                  
+
+                
+
+                        <div id="widget-wrapper-14">
+                            <div id="post-14">
+                                    <div class="left">
+                                        <img src="http://3.bp.blogspot.com/-TpYK7iLrJ7E/UJlFMayW3cI/AAAAAAAAIaw/D6WPZ_N1S9I/s1600/photo-701185.JPG"/>
+                                        <div class="follow">
+                                            Follow
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="profile">
+                                        <img src="http://img1.wikia.nocookie.net/__cb20140831193205/epicrapbattlesofhistory/images/e/e8/Jarvis-iron-man-wallpaper-android-40.jpg"/>
+                                    </div>
+                                
+                                    <div class="right">
+                                        <div class="top">
+                                            <div class="title">
+                                                Elijah Salvador
+                                            </div>
+                                            <div class="footer">
+                                                Web Developer
+                                            </div>
+                                            <div class="content">
+                                                Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..." 
+                                            </div>
+                                        </div>
+
+                                        <div class="clear">
+                                        </div>
+                                    
+                                    </div>
+                                
+                                </div>
+                            </div>
+                            <div class="clear">
+                            </div>
+
+                        <div class="jcode">
+                        <code>
+                                #widget-wrapper-14 {
+                                    margin: 40px auto;
+                                }
+
+                                #widget-wrapper-14 {
+                                    margin: 35px auto;
+                                    background-color: #fff;
+                                    width: 500px;
+                                    height: 200px;
+                                    max-width: 600px;
+                                    max-height: 300px;
+                                    position: relative;
+                                }
+
+                                #widget-wrapper-14 .left {
+                                    float: left;
+                                    height: 200px;
+                                }
+
+                                #widget-wrapper-14 .left img {
+                                    width: 200px;
+                                    height: 200px;
+                                    z-index: 1;
+                                }
+
+                                #widget-wrapper-14 .left .follow {
+                                    color: #ffffff;
+                                    z-index: 2;
+                                    background-color: #0066ff;
+                                    height: 30px;
+                                    width: 70px;
+                                    text-align: center;
+                                    position: absolute;
+                                    left: 50px;
+                                    top: 80px;
+                                    border: 4px solid transparent;
+                                    -webkit-transition: .3s;
+                                    -moz-transition: .3s;
+                                }
+
+                                #widget-wrapper-14 .left .follow:hover {
+                                    border-top: 4px solid #ffffff;
+                                    border-right: 4px solid #66ff00;
+                                    border-left: 4px solid #ff6600;
+                                    border-bottom: 4px solid #6600ff;
+                                    cursor: pointer;
+                                }
+
+                                #widget-wrapper-14 .right {
+                                    float: right;
+                                    width: 300px;
+                                    height: 200px;
+                                    color: #0b0b0b;
+                                    font-size: 14px;
+                                }
+
+                                #widget-wrapper-14 .right .top {
+                                    width: 80%;
+                                    height: 200px;
+                                    float: right;
+                                    background-color: #fff;
+                                    padding-top: 40px;
+                                }
+
+                                #widget-wrapper-14 .profile img {
+                                    width: 80px;
+                                    height: 80px;
+                                    position: absolute;
+                                    top: 50px;
+                                    left: 150px;
+                                    border: 4px solid #ffffff;
+                                    border-radius: 0px;
+                                    -webkit-transition: .4s;
+                                    transition: .4s;
+                                    opacity: .9;
+                                }
+
+                                #widget-wrapper-14 .profile img:hover {
+                                    border-top: 4px solid #0066ff;
+                                    border-right: 4px solid #66ff00;
+                                    border-left: 4px solid #ff6600;
+                                    border-bottom: 4px solid #6600ff;
+                                    cursor: pointer;
+                                    opacity: 1;
+                                }
+
+                                #widget-wrapper-14 .title {
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    -webkit-transition: .4s;
+                                    transition: .4s;
+                                }
+
+                                #widget-wrapper-14 .title:hover {
+                                    color: #0066ff;
+                                    cursor: pointer;
+                                }
+
+                                #widget-wrapper-14 .footer {
+                                    font-size: 16px;
+                                    margin-bottom: 4px;
+                                }
+                        </code>
+                        </div>
+                  
+                    </div>
+                    <!--- end of widget 14 -->
+
+                     <div id="widget-15" class="white-wrapper">
+                        
+                        <div class="widget-info">
+                            <div class="widget-title">Simple Profile Widget</div>
+                            <span class="glyphicon glyphicon-time"></span><span class="widget-date"> September 22nd-2014</span>
+                            <div class="widget-notes">This is a simple profile widget that I created, after seeing something similar on the web that inspired me. </div>
+                        </div>
+
+                        <div id="widget-wrapper-15">
+                             <div id="post-15">
+                                <div class="profile-pic">
+                                    <img src="http://images.ted.com/images/ted/2de828a3a0e10cef08cb49f16525dec1d8b59884_254x191.jpg"/>
+                                </div>
+                                <div class="profile-name">
+                                    Elon Musk
+                                </div>
+                                <div class="profile-description">
+                                   CEO and CTo of SpaceX                                
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <code>
+                            #widget-wrapper-15 {
+                                margin: 20px auto;
+                            }
+
+                            #widget-wrapper-15 {
+                                padding: 8px;
+                                width: 250px;
+                                height: 250px;
+                                border-radius: 5px;
+                                background-color: #0c0c0c;
+                                text-align: center;
+
+                            }
+
+                            #widget-wrapper-15 .profile-pic img {
+                                margin: 0 auto;
+                                width: 150px;
+                                height: 150px;
+                                border-radius: 90px;
+                                margin-bottom: 10px;
+                            }
+
+                            #widget-wrapper-15 .profile-pic img:hover {
+                                color: red;
+                            }
+
+                            #widget-wrapper-15 .profile-name {
+                                color: #f2f2f2;
+                                font-size: 24px;
+                                font-weight: 700;
+                            }
+
+                            #widget-wrapper-15 .profile-description {
+                                font-size: 16px;
+                                margin-bottom: 10px;
+                                color: #fff;
+                            }
+    
+                        </code>
 
                 </div>
 
