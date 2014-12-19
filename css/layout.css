@@ -77,6 +77,85 @@ CSS for the layout of my blog.
     text-align: justify;
 }
 
+/* block wrapper with white background below */
+
+.white-wrapper {
+    margin: 20px auto 10px auto;
+    padding-bottom: 50px;
+    border-top: 0px solid #f2f2f2;
+    background-color: #fff;
+    max-width: 950px;
+}
+
+.white-wrapper .post:hover {
+    -moz-transform: scale(1.25);
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
+    transform-ms-: scale(1.25);
+    box-shadow: 0px 0px 1600px 100px #0b0b0b;
+}
+
+.white-wrapper .widget-title {
+    margin: 15px 0 0 0;
+    color: #0066FF;
+    font-size: 36px;
+    text-align: left;
+    font-family: "Helvetica Neue",​Helvetica,​Arial,​sans-serif
+}
+
+.white-wrapper .widget-date {
+    font-family: "Helvetica Neue",​Helvetica,​Arial,​sans-serif;
+    font-size: 18.5px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.white-wrapper .glyphicon-time {
+    color: #fff;
+    margin-right: 4px;
+    margin-bottom: 22px;
+    font-size: 14px;
+}
+
+.white-wrapper .widget-title:first-letter {
+    font-size: 1.4em;
+}
+
+.white-wrapper .widget-title:first-line { 
+    font-size: 1.1em;
+    line-height: 100%; 
+}
+
+.white-wrapper .widget-info {
+    font-family: "Helvetica Neue",​Helvetica,​Arial,​sans-serif;
+    background-color: #0b0b0b;
+    opacity: .9;
+    margin-bottom: 30px;
+    color: #f2f2f2;
+    font-size: 19px;
+    text-align: left;
+    border-top: 4px solid #00CCFF;
+    padding: 8px 25px;
+}
+
+.white-wrapper .widget-notes {
+    margin-bottom: 10px;
+}
+
+.white-wrapper:last-child {
+    padding-bottom: 120px !important;
+}
+
+.white-wrapper .page-notes {
+    margin-bottom: 30px;
+    color: #f2f2f2;
+    font-size: 18px;
+    text-align: left;
+    padding-right: 15px;
+    text-align: justify;
+}
+/* end of code for white background */
+
 #top-wrapper .page-title {
     padding-top: 20px;
     color: #19D175;
@@ -89,7 +168,7 @@ CSS for the layout of my blog.
     display: block;
     margin: 0 auto;
     width: 148.8px;
-    height: 259.2px;
+    height: 229.2px;
     border-radius: 8px;
     font-size: 20px;
     border-top: 6px solid #ffffff;
@@ -210,4 +289,8 @@ CSS for the layout of my blog.
     text-indent: 12%;
     font-size: 18px;
     text-transform: uppercase;
+}
+
+.j-nav {
+    
 }
