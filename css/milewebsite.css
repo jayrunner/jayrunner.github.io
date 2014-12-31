@@ -133,11 +133,10 @@ body {
 }
 
 .main-content {
-	width: 70%;
+	width: 60%;
 	margin: 1px;
 	background-color: #0b0b0b;
 	padding: 20px 15px;
-	border-radius: 10px;
 }
 
 .main-content .title {
