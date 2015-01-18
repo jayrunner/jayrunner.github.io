@@ -81,7 +81,7 @@ body {
 }
 
 #menu-wrapper #item-1 {
-	color:#fff;
+	color: #fff;
 	background-color: #0b0b0b;
 	border-bottom: 4px solid #fff;
 }
@@ -213,14 +213,14 @@ li {
 }
 
 a {
-    color: #0c0c0c;
+    color: #0b0b0b;
     text-decoration: none;
 }
 
 li:hover {
 	color: #fff;
 	background-color: #FF6600;
-	text-shadow: 1px 1px 1px #0c0c0c;
+	text-shadow: 1px 1px 1px #0b0b0b;
 }
 
 a:hover {
@@ -545,16 +545,23 @@ a:hover {
 		font-family: arial, helvetica, sans-serif;
 	}
 
+	#menu-wrapper {
+		background-color: #0b0b0b;
+		padding: 0px 5px 5px 5px;
+		width: 100%;
+		margin-bottom: 20px;
+}
+
 	#menu-wrapper .item {
-		font-size: 1.0em;
+		font-size: 1.2em;
 		height: 10%;
 		width: 95%;
-		display: inline;
+		display: inline-block;
 		text-align: center;
 		padding: 2px;
 		margin: 0 1px;
-		background-color: #145fd7;
-		color: #fff;
+		background-color: #0b0b0b;
+		color: #5c5c5c;
 		float: left;
 		font-family: arial, helvetica, sans-serif;
 		text-decoration: none;
@@ -562,46 +569,63 @@ a:hover {
 	    -moz-transition-duration: 0.2s;
 	    transition-duration: 0.2s;
 	    cursor: pointer;
+	    border-bottom: 1px dashed #1a1a1a;
 	}
 
 	#menu-wrapper #item-1 {
+		color: #5c5c5c;
+		border-bottom: 1px dashed #1a1a1a;
+	}
+
+	#menu-wrapper #item-1,
+				  #item-2, 
+				  #item-3, 
+				  #item-4,
+				  #item-5,
+				  #item-6  {
+		border: none;
+		color: #5c5c5c;
+		border-bottom: 1px dashed #1a1a1a;
+	}
+
+	#menu-wrapper #item-1:hover {
 		color: #fff;
 		background-color: #FF6600;
-		text-shadow: 1px 1px 1px #0c0c0c;
+		text-shadow: 1px 1px 1px #0b0b0b;
 		border: none;
 		}
 
 	#menu-wrapper #item-2:hover {
 		color: #fff;
 		background-color: #FF6600;
-		text-shadow: 1px 1px 1px #0c0c0c;
+		text-shadow: 1px 1px 1px #0b0b0b;
 		border: none;
 	}
 
 	#menu-wrapper #item-3:hover {
 		color: #fff;
 		background-color: #FF6600;
-		text-shadow: 1px 1px 1px #0c0c0c;
+		text-shadow: 1px 1px 1px #0b0b0b;
 		border: none;
 	}
 
 	#menu-wrapper #item-4:hover {
 		color: #fff;
 		background-color: #FF6600;
-		text-shadow: 1px 1px 1px #0c0c0c;
+		text-shadow: 1px 1px 1px #0b0b0b;
 		border: none;
 	}
 
 	#menu-wrapper #item-5:hover {
 		color: #fff;
 		background-color: #FF6600;
-		text-shadow: 1px 1px 1px #0c0c0c;
+		text-shadow: 1px 1px 1px #0b0b0b;
 		border: none;
 	}
 	#menu-wrapper #item-6:hover {
 		color: #fff;
 		background-color: #FF6600;
-		text-shadow: 1px 1px 1px #0c0c0c;
+		text-shadow: 1px 1px 1px #0b0b0b;
 		border: none;
 	}
 
@@ -632,7 +656,7 @@ a:hover {
 
 	#header span:first-child {
 		color: #f2f2f2;
-		font-size: 1.2em;
+		font-size: 1.4em;
 		margin: 0px 0px 0px 10px;
 		font-family: arial, helvetica, sans-serif;
 }
@@ -645,8 +669,8 @@ a:hover {
 		text-align: center;
 		padding: 2px;
 		margin: 0 1px;
-		background-color: #145fd7;
-		color: #fff;
+		background-color: #0b0b0b;
+		color: #5c5c5c;
 		float: left;
 		font-family: arial, helvetica, sans-serif;
 		text-decoration: none;
