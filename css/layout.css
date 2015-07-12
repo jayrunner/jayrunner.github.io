@@ -9,7 +9,7 @@ CSS for the layout of my blog.
     background-color: #0c0c0c;
     max-width: 950px;
 }
-
+/* Decided to get rid of this for a little bit.
 .block-wrapper .post:hover {
     -moz-transform: scale(1.25);
     -webkit-transform: scale(1.25);
@@ -17,6 +17,7 @@ CSS for the layout of my blog.
     transform-ms-: scale(1.25);
     box-shadow: 0px 0px 1600px 100px #0b0b0b;
 }
+*/
 
 .block-wrapper .widget-title {
     margin: 15px 0 0 0;
