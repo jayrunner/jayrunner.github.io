@@ -6,7 +6,7 @@
     margin: 40px auto;
 }
 
-#widget-wrapper-1 .post {
+#widget-wrapper-1 .post1 {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px auto;
     border: 1px solid #ccc;
@@ -16,70 +16,70 @@
     max-width: 550px;
 }
 
-#widget-wrapper-1 .post .image-container {
+#widget-wrapper-1 .post1 .image-container {
     width: 220px;
     height: 150px;
     margin: 5px;
     padding: 2px;
     float: left;
 }
-#widget-wrapper-1 .post .image-container img {
+#widget-wrapper-1 .post1 .image-container img {
     width: 220px;
     height: 150px;
 }
 
-#widget-wrapper-1 .post .content-container {
+#widget-wrapper-1 .post1 .content-container {
     width: 250px;
     margin: 0px 5px 5px 5px;
     padding: 2px;
     float: left;
 }
 
-#widget-wrapper-1 .post .content-container .price-address {
+#widget-wrapper-1 .post1 .content-container .price-address {
     width: 250px;
     margin-bottom: 5px;
 }
 
-#widget-wrapper-1 .post .content-container .price-address .price {
+#widget-wrapper-1 .post1 .content-container .price-address .price {
     float: left;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
     color: #2E9AFE;
 }
 
-#widget-wrapper-1 .post .content-container .price-address .address {
+#widget-wrapper-1 .post1 .content-container .price-address .address {
     float: left;
     color: #6E6E6E;
     margin-left: 25px;
     font-size: 14px;
 }
 
-#widget-wrapper-1 .post .content-container .ad-content {
+#widget-wrapper-1 .post1 .content-container .ad-content {
     width: 100%;
 }
 
-#widget-wrapper-1 .post .content-container .stats {
+#widget-wrapper-1 .post1 .content-container .stats {
     width: 100%;
     margin-bottom: 6px;
 }
 
-#widget-wrapper-1 .post .content-container .stats span {
+#widget-wrapper-1 .post1 .content-container .stats span {
     padding-right: 6px;
     margin-right: 4px;
     border-right: 1px solid #ccc;
     color: #151515;
 }
 
-#widget-wrapper-1 .post .content-container .stats span:last-child {
+#widget-wrapper-1 .post1 .content-container .stats span:last-child {
     border: none !important;
 }
 
-#widget-wrapper-1 .post .content-container .description {
+#widget-wrapper-1 .post1 .content-container .description {
     margin-bottom: 6px;
     color: #6E6E6E;
 }
 
-#widget-wrapper-1 .post .content-container .signature {
+#widget-wrapper-1 .post1 .content-container .signature {
     color: #BDBDBD;
 }
 /* End of Real estate widget */
@@ -1502,6 +1502,205 @@
 }
 
 /* end of 16th widget */
+
+
+
+
+
+
+
+/* start of 17th widget */
+
+#comment-wrapper {
+    margin: 50px auto;
+    width: 90%;
+    min-width: 600px;
+    padding: 8px;
+}
+
+#comment-wrapper .tabs {
+    margin-bottom: 14px;
+}
+
+#comment-wrapper .tabs .tab {
+    display: inline;
+    padding: 16px 8px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    background-color: #f2f2f2;
+}
+
+#comment-wrapper .tabs .tab.active {
+    border: 1px solid #cccccc;
+    border-bottom: none;
+    background-color: #ffffff;
+}
+
+#comment-wrapper .content-control {
+    padding: 20px 10px;
+    border: 1px solid #cccccc;
+    background-color: #f2f2f2;
+    border-top: transparent !important;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#comment-wrapper .post {
+    display: table;
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: #f2f2f2;
+}
+
+#comment-wrapper .post:last-child {
+    margin-bottom: 0px !important;
+}
+
+#comment-wrapper .post .avatar, .post .text {
+    display: table-cell;
+    vertical-align: top;
+}
+
+#comment-wrapper .post .avatar {
+    width: 90px;
+    margin-right:10px;
+}
+
+#comment-wrapper .post img {
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+}
+
+#comment-wrapper .post .text {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+}
+
+#comment-wrapper .post .text .name-date {
+    display: table;
+    width: 100%;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+#comment-wrapper .post .text .name, .post .text .date {
+    display: table-cell;
+    width: 50%;
+}
+
+#comment-wrapper .post .text .date {
+    font-size: .8em;
+    text-align: right;
+}
+
+#comment-wrapper .post .text .comments {
+    font-size: .8em;
+    margin-bottom: 23px;
+}
+
+#comment-wrapper .buttons .reply-button, .comment-button {
+    padding: 6px 10px;
+    color: #ffffff;
+    border-radius: 14px;
+    text-transform: uppercase;
+    font-size: .6em;
+    font-weight: 600;
+}
+
+#comment-wrapper .buttons .reply-button, .buttons .comment-button {
+    cursor: pointer;
+    margin-right: 5px;
+    -moz-transition: background-color .3s ease;
+    -webkit-transition: background-color .3s ease;
+    -o-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+}
+
+#comment-wrapper .buttons .reply-button {
+    background-color: #3386f2;
+}
+
+#comment-wrapper .buttons .reply-button:hover {
+    background-color: #336cf2;
+}
+
+#comment-wrapper .buttons .comment-button {
+    background-color: #f29f33;
+}
+
+#comment-wrapper .buttons .comment-button:hover {
+    background-color: #f27f33;
+}
+
+#setting-content {
+    display: none;
+}
+
+#add-content {
+    display: none;
+}
+
+/* New Widget */
+
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.panel {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.panel .panel-head {
+    font-weight: 700;
+    padding: 13px;
+    color: #FFF;
+    background-color: rgb(67, 137, 202);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.panel .panel-body {
+    padding: 13px;
+    border: 1px solid rgb(67, 137, 202);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.bar-graph .entity {
+    margin-bottom: 15px;
+}
+
+.bar-graph .entity:after {
+    content:'';
+    display:block;
+    clear: both;
+}
+
+.bar-graph .entity .bar, .bar-graph .entity .label {
+    float: left;
+}
+
+.bar-graph .entity .bar {
+    border-radius: 4px;
+    background-color: #5cb85c;
+    color: #FFF;
+    padding: 10px;
+}
+
+.bar-graph .entity .label {
+    margin: 10px;
+}
 
 
 
