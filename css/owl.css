@@ -1,0 +1,188 @@
+body {
+    background: repeating-linear-gradient(
+    20deg,
+    #202020,
+    #202020 40px,
+    #101010 40px,
+    #101010 100px
+    );
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    margin: 50px 400px;
+    width: 600px;
+    height: 600px;
+    background-color: transparent;
+}
+
+.signature {
+    z-index: 10;
+    position: absolute;
+    top: 450px;
+    left: 650px;
+    color: #f2f2f2;
+    font-size: 20px;
+}
+
+.eye {
+    left: 430px;
+    position: absolute;
+    top: 80px;
+    margin-left: 20px;
+    background-color: #202020;
+    height: 30px;
+    width: 30px;
+    border: 10px solid yellow;
+    border-radius: 50%;
+}
+
+.eyetwo {
+    left: 520px;
+    position: absolute;
+    top: 80px;
+    margin-left: 20px;
+    background-color: #202020;
+    height: 30px;
+    width: 30px;
+    border: 10px solid yellow;
+    border-radius: 50%;
+}
+.beak {
+    position: absolute;
+    top: 140px;
+    left: 495px;
+    float: left;
+    height: 0px;
+    width: 0px;
+    border-top: 50px ridge orange;
+    border-bottom: 25px ridge transparent;
+    border-left: 25px ridge transparent;
+    border-right: 25px ridge transparent;
+}
+
+.thebody {
+    border-radius: 50%;
+    z-index: -5;
+    position: absolute;
+    top: 90px;
+    left: 430px;
+    border-top: 120px solid #101010;
+    border-bottom: 120px solid #202020;
+    border-left: 90px solid green;
+    border-right: 90px solid green;
+}
+
+.tail {
+    border-top: 80px groove transparent;
+    border-bottom: 150px groove blue;
+    border-left: 80px ridge transparent;
+    border-right: 80px ridge transparent;
+    z-index: -50;
+    position: absolute;
+    top: 190px;
+    left: 440px;
+    width: 0px;
+    height: 0px;
+}
+.ear1 {
+    float: left;
+    z-index: -1;
+    transform: rotate(120deg);
+    position: absolute;
+    border-radius: 40%;
+    top:35px;
+    left: 430px;
+    height: 0px;
+    width: 0px;
+    border-top: 80px groove blue;
+    border-bottom: 10px groove transparent;
+    border-left: 10px groove transparent;
+    border-right: 10px groove transparent;
+}
+.ear3 {
+    float: left;
+    z-index: -1;
+    transform: rotate(140deg);
+    position: absolute;
+    border-radius: 40%;
+    top: 30px;
+    left: 440px;
+    height: 0px;
+    width: 0px;
+    border-top: 80px groove blue;
+    border-bottom: 10px groove transparent;
+    border-left: 10px groove transparent;
+    border-right: 10px groove transparent;
+}
+
+.ear2 {
+    float: left;
+    z-index: -2;
+    transform: rotate(235deg);
+    position: absolute;
+    border-radius: 40%;
+    top: 40px;
+    left: 580px;
+    height: 0px;
+    width: 0px;
+    border-top: 80px groove blue;
+    border-bottom: 10px groove transparent;
+    border-left:10px ridge transparent;
+    border-right: 10px ridge transparent;
+}
+
+.ear4 {
+    float: left;
+    z-index: -1;
+    transform: rotate(220deg);
+    position: absolute;
+    border-radius: 40%;
+    top: 30px;
+    left: 570px;
+    height: 0px;
+    width: 0px;
+    border-top: 80px groove blue;
+    border-bottom: 10px groove transparent;
+    border-left:10px ridge transparent;
+    border-right: 10px ridge transparent;
+}
+
+.tri {
+    z-index: -3;
+    position: absolute;
+    top: 90px;
+    left: 450px;
+    height: 0px;
+    width: 0px;
+     border-top: 80px groove #0066ff;
+    border-bottom: 70px groove transparent;
+    border-left: 70px ridge transparent;
+    border-right:  70px ridge transparent;    
+}
+
+.stick {
+    z-index: -6;
+    position: absolute;
+    left: 260px;
+    top: 310px;
+    height: 10px;
+    width: 400px;
+    background-color: #8F2400;
+}
+
+.tree {
+    width: 300px;
+    height: 2000px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: repeating-linear-gradient(
+    45deg,
+    #8F2400,
+    #8F2400 30px,
+    #4C1A00 30px,
+    #4C1A00 60px
+    );
+}
