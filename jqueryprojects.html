@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/jqueryproject.css" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+    var $panel = $(this).closest('.tab-panels');
+    
+    // click on tab
+    $('.tab-panels .tabs li').on('click', function(){
+    // get active panel
+        
+    var activePanel = $('li.active').attr('rel');
+        $('li.active').removeClass('active');
+        $('#'+activePanel).slideUp(400, dropNewPanel);
+        
+        $(this).addClass('active');
+        
+        function dropNewPanel() {
+            var newPanel = $('li.active').attr('rel');
+            $('#'+newPanel).slideDown();
+            $('#'+newPanel).addClass('active');
+        }
+        
+    });//onclick function
+    
+    
+	});//document.ready
+	</script>
+</head>
+
+<body>
+
+	<div id="wrapper">
+
+		<div class="title">
+			<h1>
+				<span class="word-red">Jquery</span> <span class="word-grn">Projects</span>
+			</h1>
+		</div>
+
+		<div class="block gray">
+
+			<div id="widget-1">
+				<div class="tab-panels">
+		            <ul class="tabs">
+		                <li rel="panel1" class="active bg-blk">Home</li>
+		                <li rel="panel2" class="bg-red">About</li>
+		                <li rel="panel3" class="bg-blue">Mission</li>
+		                <li rel="panel4" class="bg-grn">Reviews</li>
+		            </ul>
+
+		            <div id="panel1" class="panel active bg-wht brd-blk">
+		                <p>Bacon ipsum do lor amet pastrami bacon alcatra picanha ham shoulder tail short ribs ground round t-bone ribeye pancetta landjaeger. Sausage shankle bacon, pork t-bone filet mignon ball tip pastrami rump tenderloin jowl short ribs turkey pork chop.</p>
+		            </div>
+		            <div id="panel2" class="panel bg-wht brd-red">
+		               <p>Bacon ipsum dolor amet pastrami bacon alcatra picanha ham shoulder tail short ribs ground round t-bone ribeye pancetta landjaeger. Sausage shankle bacon, pork t-bone filet mignon ball tip pastrami rump tenderloin jowl short ribs turkey pork chop.</p>
+		            </div>
+		            <div id="panel3" class="panel bg-wht brd-blue">
+		                 <p>Bacon ipsum dolor amet pastrami bacon alcatra picanha ham shoulder tail short ribs ground round t-bone ribeye pancetta landjaeger. Ball tip swinetongue leberkas pork chop chuck filet mignon beef. Pork belly drumstick venison shankle ham porchetta spare ribs kielbasa bresaola. Prosciutto landjaeger drumstick turkey frankfurter pork leberkas ham hock meatloaf jowl strip steak hamburger. Pork beef ribs pig, salami meatball sausage bresaola shank tri-tip turkey pork loin. Bacon kielbasa filet mignon pork belly short loin pig t-bone prosciutto drumstick cupim flank ham. Beef ribs turkey chuck bacon jowl ball tip.</p>
+		            </div>
+		            <div id="panel4" class="panel bg-wht brd-grn">
+		            <p>Prosciutto landjaeger drumstick turkey frankfurter pork leberkas ham hock meatloaf jowl strip steak hamburger. Pork beef ribs pig, salami meatball sausage bresaola shank tri-tip turkey pork loin. Bacon kielbasa filet mignon pork belly short loin pig t-bone prosciutto drumstick cupim flank ham. Beef ribs turkey chuck bacon jowl ball tip.</p>
+		            </div>
+	        	</div>
+	        </div>
+		</div>
+
+		<div class="block black">
+
+		</div>
+
+		<div class="block gray">
+
+		</div>
+
+		<div class="block black">
+
+		</div>
+
+	</div>
+
+</body>
+
+
+
+</html>
